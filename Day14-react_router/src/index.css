@@ -1,0 +1,15 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  align-items: center;
+  background-color: burlywood;
+  font-weight: 600;
+  font-size: large;
+}
+#nav-buttons {
+  display: flex;
+  gap: 2rem;
+}
