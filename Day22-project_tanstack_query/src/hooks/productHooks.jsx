@@ -26,6 +26,7 @@ export function useGetProduct() {
 
   function filterProdByCategory(category) {
     if (!data) return;
+    if (category === "") return setFilteredProducts(data);
     let filtered = data.filter((p) => p.category === category);
     setFilteredProducts(filtered);
   }
